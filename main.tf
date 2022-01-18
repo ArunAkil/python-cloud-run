@@ -18,7 +18,7 @@ resource "google_cloud_run_service" "default" {
   template {
     spec {
       containers {
-        image = "gcr.io/<project-id>/<image-name>:latest"
+        image = "gcr.io/python-cloud-run-338108/python-image"
       }
     }
   }
